@@ -1,7 +1,6 @@
 [
   {
     "title": "Campfire Coffee",
-
     "projectButton": "See my Coffee Shop website",
     "projectUrl": "https://github.com/zgeorgii/campfire_coffee.git",
     "body": "First website ever made!",
@@ -9,7 +8,6 @@
   },
   {
     "title": "Hoppr",
-
     "projectButton": "See my Hop Matcher website",
     "projectUrl": "https://github.com/bharding2/hoppr.git",
     "body": "Awesome 201 Final Group Project!",
@@ -17,7 +15,6 @@
   },
   {
     "title": "Bus Mall Survey",
-  
     "projectButton": "See my Survey",
     "projectUrl": "https://github.com/zgeorgii/bus_mall.git",
     "body": "Randomized questionnaire with local storage and graph",
