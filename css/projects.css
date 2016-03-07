@@ -1,0 +1,40 @@
+#projects {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  text-align: center;
+  padding: 1% 5%;
+}
+#projects a {
+  display: inline-block;
+  text-align: center;
+  color: white;
+  font-size: 1.5vw;
+  text-decoration: none;
+  padding: .25% 2% .25% 2%;
+  background-color: black;
+  border-radius: 10px;
+  border: 1px solid white;
+  margin-bottom: 4%;
+}
+#projects.tab-content {
+  background-color: rgba(0,0,0,.125);
+}
+p a {
+  margin-bottom: 20%;
+  padding: 1.5%;
+  background-color: black;
+  border-radius: 10px;
+}
+section {
+  font-family: Arial;
+  color: white;
+  font-size: 2vw;
+}
+h1{
+  -webkit-text-stroke: 1px black;
+  font-family: Arial;
+  color: white;
+  font-size: 2.5vw;
+
+}

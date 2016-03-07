@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Zach Georgii Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/about.css">
+    <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="css/projects.css">
+     <script id="project-template" type="text/x-handlebars-template">
+      <section id="projects">
+        <article class="clearfix" data-projectButton="{{projectButton}}">
+          <header>
+          <h1>{{title}}</h1>
+          <div class="byline">
+            <!-- <img class="project-img" src="{{{image}}}" /> -->
+            <address><a href="{{projectUrl}}">{{projectButton}}</a></address>
+            <time>{{publishStatus}}</time>
+          </div>
+          </header>
+          <section class="project-body">{{{body}}}</section>
+        </article>
+        <hr>
+      </section>
+    </script>
+  </head>
+  <body>
+    <header class="site-header clearfix">
+      <div class="tabs">
+        <nav class="main-menu">
+          <li class="tab" data-content="home"><a href="#">Home</a></li>
+          <li class="tab" data-content="projects"><a href="#">Projects</a></li>
+          <li class="tab" data-content="contact"><a href="#">Business</a></li>
+          <li class="tab" data-content="about"><a href="#">About</a></li>
+        </nav>
+      </div>
+    </header>
+    <header class="zach">Zach Georgii</header>
+    <hr/>
+  <main>
+    <div class="tabs">
+      <section id="home" class="tab-content">
+        <div class="picture_box">
+          <p>Web Developer</p>
+            <img src="img/profilePic.jpg" />
+        </div>
+      </section>
+    </div>
+    <div class="tabs">
+      <section id="projects" class="tab-content">
+      </section>
+    </div>
+    <div class="tabs">
+      <section id="contact" class="tab-content">
+      </section>
+    </div>
+    <div class="tabs">
+      <section id="about" class="tab-content">
+      </section>
+    </div>
+    </main>
+    <hr/>
+    <footer>&copy; By | Zach Georgii | 2016</footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.5/handlebars.min.js"></script>
+    <script src="js/marked.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/view.js"></script>
+    <script src="js/projects.js"></script>
+    <script>
+      Project.fetchAll();
+    </script>
+  </body>
+</html>
