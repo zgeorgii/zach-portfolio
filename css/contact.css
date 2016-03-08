@@ -1,0 +1,17 @@
+.contact {
+  display: flex;
+}
+.left-contact {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid red;
+}
+.right-contact {
+
+}
+.side-bar {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: 1px solid white;
+}
